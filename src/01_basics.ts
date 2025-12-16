@@ -1,3 +1,5 @@
+//type checking with function parameter and return type
+
 function greet(person:string): string {
  return `Hello ${person}, Welcome user`
 }

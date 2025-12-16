@@ -1,3 +1,4 @@
+// • Union & Any types
 
 // ***Union -*** 
 // Example: 
@@ -25,6 +26,3 @@ for (let order of orders) {
 };
 
 console.log(currentOrder);
-
-
-

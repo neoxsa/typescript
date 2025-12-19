@@ -72,7 +72,7 @@ const coffee = CoffeeSize.MEDIUM;
 // example 2:
 enum Price {
     LATTE = 100,
-    ESPRESSO, // 101   // Here it takes the value automatic if the vlue not defined in it.
+    ESPRESSO, // 101   // Here it takes the value automatic if the value not defined in it.
     CAPPUCCINO // 102   // Thats why this practice is not recommended
 }
 
@@ -91,7 +91,7 @@ function coffeeTypes(type: CoffeeType){
 coffeeTypes(CoffeeType.ESPRESSO); // Output: Here is your Espresso coffee.
 // coffeeTypes("Mocha"); // Invalid
 
-// example 4: Hetrogenous enum -- Not Standard Practice
+// example 4: Heterogenous enum -- Not Standard Practice
 
 enum RandomEnum {
     ID = 10,

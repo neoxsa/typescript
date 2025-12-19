@@ -31,7 +31,7 @@ function logCoffee(): void {
 logCoffee();
 
 
-// Optonal Parameter - Example: 
+// Optional Parameter - Example: 
 function serveCoffee(name: string, price?: number) {
     console.log(`Here is your ${name} coffee, your bill is ${price || 0} rupees.`)
 }

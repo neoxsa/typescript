@@ -85,7 +85,7 @@ type Order = {
 };
 
 
-// ****Interseting**** - 
+// ****interesting**** - 
 
 // **Partial** -
 
@@ -113,7 +113,7 @@ type ChaiOrder = {
     totalPrice: number
 }
 
-const placeOrder = (order: Required<ChaiOrder>) => { // By using Requred all properties are must for this function
+const placeOrder = (order: Required<ChaiOrder>) => { // By using required all properties are must for this function
     console.log("Order Detail:", order)
 }
 

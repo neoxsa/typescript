@@ -1,8 +1,13 @@
 // Web Request TS
-import axios, { AxiosResponse } from 'axios';
+
+//import axios, { AxiosResponse } from 'axios';  // Here axios is functionality and AxiosResponse is type. So to remove the squiggly line we import type separately.
+
+import axios from 'axios';
+import type { AxiosResponse } from 'axios'; // Importing only type from the axios module .d.ts file
+
 
 // Sometimes we need Typescript support Dependency/Library then we use:
-// npm i -D @types/some-library
+// npm i -D @types/some-library    // Recommended way
 // In case some library does not have types, we can create our own type declaration file (.d.ts)
 
 

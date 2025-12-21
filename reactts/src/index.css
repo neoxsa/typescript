@@ -1,0 +1,17 @@
+body {
+  background-color: #212121;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCard {
+  border: 2px solid white;
+  padding: 10px;
+  margin: 5px;
+}
+
+.stock0 {
+  color: red;
+}
